@@ -1,16 +1,91 @@
-# React + Vite
+# JDBC Learner Website 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and beginner-friendly **JDBC (Java Database Connectivity) learning website** built to help students understand how JDBC works in Java — including database connection basics, common operations, and key concepts.
 
-Currently, two official plugins are available:
+🌐 [**View Live Demo**](https://jdbc-visualizer.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📘 Beginner friendly UI
+- ⚡ Fast and responsive frontend
+- 🎓 Helps learners understand JDBC concepts easily
+- 🖥️ Clean layout suitable for college-level projects
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **React + Vite**
+- **Tailwind CSS**
+- HTML / CSS / JavaScript
+
+---
+
+## 📂 Project Structure
+```
+JDBC/
+│── public/
+│── src/
+│ ├── components/
+│ ├── pages/
+│ ├── assets/
+│ ├── App.jsx
+│ ├── main.jsx
+│── index.html
+│── package.json
+│── tailwind.config.js
+│── vite.config.js
+```
+
+---
+
+## ⚙️ Installation & Setup (Run Locally)
+
+Clone the repository:
+
+```bash
+git clone https://github.com/hrishikhapekar/JDBC.git
+cd JDBC
+```
+Install dependencies:
+```bash
+npm install
+```
+Run the project:
+``` bash
+npm run dev
+```
+Now open:
+```bash
+http://localhost:5173
+```
+## 🚀 Deployment
+This project is deployed using Vercel.
+
+- To deploy:
+- Push code to GitHub
+- Import repository in Vercel
+- Deploy 🎉
+
+## 📌 Purpose
+This project is made as a learning-based website for students to understand:
+
+1. What JDBC is
+2. Why JDBC is used
+3. How Java connects to databases
+4. JDBC workflow and connection steps
+
+## 🤝 Contributing
+Contributions are welcome!
+Fork the repo
+Create a new branch
+Commit changes
+Open a pull request
+
+## 📜 License
+This project is open-source and available under the MIT License.
+
+## 👤 Author
+Github : [Hrishi Khapekar](https://github.com/hrishikhapekar)
